@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-vmmat2n5825z4uwtqycgstdjzhj*c_*fmvsx-o^h$2hfwd=q&j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mergemind.onrender.com','localhost','127.0.0.1']
 
 
 # Application definition
