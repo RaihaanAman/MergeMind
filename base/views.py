@@ -60,7 +60,7 @@ def registerPage(request):
             login(request, user)
             return redirect('home')
         else:
-            messages.error(request, 'An error occured during registration')
+            messages.error(request, 'Password must contain: Special Characters, numbers, letters')
 
     return render(request, 'base/login_register.html',{'form' : form})
 
