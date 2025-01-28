@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-vmmat2n5825z4uwtqycgstdjzhj*c_*fmvsx-o^h$2hfwd=q&j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['studybud-vxb4.onrender.com', 'localhost', '127.0.0.1']
 
